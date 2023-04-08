@@ -1,0 +1,22 @@
+<script>
+    var selectedOption = null;
+    var optionDescription = {
+        1: "<object type=\"text/html\" data=\"s1.html\">",
+        2: "<object type=\"text/html\" data=\"s2.html\">",
+        3: "<object type=\"text/html\" data=\"s3.html\">"
+    };
+    function onClick(e) {
+        document.getElementById("opt").innerHTML = optionDescription[e];
+        console.log(e);
+    }
+</script>
+<div class="App">
+    <div class="Options">
+      <p onClick="onClick(1)">Option 1</p>
+      <p onClick="onClick(2)">Option 2</p>
+      <p onClick="onClick(3)">Option 3</p>
+    </div>
+      <div id="opt" class="description">
+        
+      </div>
+  </div>
