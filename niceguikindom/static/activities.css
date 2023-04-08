@@ -1,0 +1,24 @@
+.tasks{
+    background-color: #b8afbd;
+    border-radius: 100px;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.remove{
+    border-radius: 100px;
+    background-color: #FF9270;
+    border: none;
+    padding: 0 15px;
+}
+
+.kindom{
+    font-size: 60px;
+    color: black;
+    
+}
+
+.text-task{
+    font-size: 40px;
+    color: black;
+    margin: 5px 0;
+}
