@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(63, 52, 70) 0%, rgb(96, 81, 107) 49%, rgba(63, 52, 70) 100%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 40px;
+}
+
+
+.infos-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info,.user-info,.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #edffd9;
+    cursor: pointer;
+}
+
+.info,.user-info{
+    transition: 0.3s;
+}
+
+.info:hover, .user-info:hover{
+    scale: 1.1;
+    color: rgb(224, 224, 224);
+}
+
+.user-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homepage{
+    background-image: linear-gradient(to bottom,#edffd9,#ffe19c);
+    padding: 40px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0;
+}
+
+.subtitle{
+    text-align: center;
+    color: #db9d47;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserat', sans-serif;
+}
+
+.homepage-image{
+    border-radius: 200px;
+    width: 900px;
+}
