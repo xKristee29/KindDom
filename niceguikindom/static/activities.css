@@ -3,6 +3,7 @@
     border-radius: 100px;
     padding: 0 15px;
     margin: 10px 0;
+    font-size: 22px;
 }
 .remove{
     border-radius: 100px;
@@ -21,4 +22,147 @@
     font-size: 40px;
     color: black;
     margin: 5px 0;
+}
+
+body{
+    height: 100vh;
+    z-index: -1;
+}
+
+:root{
+    --primary1: hsla(348, 97%,63%,0.65);
+    --secondary1: hsla(230, 96%,62%, 0.65);
+    --primary2: hsla(0, 0%, 100%, 0.65);
+    --secondary2: hsla(0, 0%, 0%, 0.65);
+    --primary3: hsla(64, 100%, 50%, 0.65);
+    --secondary3: hsla(133, 100%, 16%, 0.65);
+}
+
+.panel1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg,var(--primary1),var(--secondary1)),
+    url("https://media.discordapp.net/attachments/880529479515115580/1094231477862023289/firstPanel.jpg?width=1005&height=670");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+.subpanel1 {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    color: #edffd9;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1{
+    padding: 10px;
+    background-color: #edffd9;
+    color: black;
+    border: none;
+    transition: 0.2s;
+    margin: 2vh;
+}
+
+.button1:hover{
+    scale: 1.1;
+
+  
+  transition: background-color 0.3s ease-in-out;
+}
+  
+  .button1:hover span {
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .button1 span {
+    color: var(--primary1);
+    transition: color 0.3s ease-in-out;
+  }
+
+.panel2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg,var(--primary2),var(--secondary2)),
+    url("https://images.nappy.co/uploads/large/21595617532ierv4wduvarqklr3gmzufgfqbhfi0qye2r2ikioggkwosi7glftwclbrdmjm6tnbavdczhqnydp2llieyxujgovfltuozwfv4fp1.jpg?auto=format&w=1280&q=75");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.panel3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg,var(--primary3),var(--secondary3)),
+    url("https://images.nappy.co/uploads/large/47561611598068ynuago6yx8ykx1wve4vzb8hccmgjnmpw48qkkwey16vy6ui5rta8fctddlhdsottvvc5lznzc81qfiv5i4enspphytsksavsujze.jpg?auto=format&w=1280&q=75");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.transition{
+    width: 100%;
+    height: 5vh;
+    background-color: #3a3042;
+}
+.page{
+    width: 100%;
+    height: 100%;
+
+}
+
+.chenar-chenar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chenar{
+    width: 100%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 60px;
+    color: black;
+    margin: 5px 0;
+}
+
+.topbar{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-button{
+    padding: 8px 15px;
+    background-color: #3a3042;
+    color: #edffed;
+    border: none;
+    border-radius: 30px;
 }
