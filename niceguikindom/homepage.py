@@ -43,7 +43,7 @@ def render_navbar():
             with ui.element('div').classes('info'):
                 ui.html('<a href="/home">Resources</a>')
             with ui.element('div').classes('info'):
-                ui.html('<a href="/home">About Us</a>')
+                ui.html('<a href="/aboutus">About Us</a>')
         with ui.element('div').classes('user-container'):
             with ui.element('div').classes('user-info'):
                 ui.html(f'<a href="/home">{username}</a>')
@@ -181,6 +181,43 @@ def render_homepage():
 
         </div>''')
 
+@ui.page('/aboutus')
+def render_aboutus():
+    ui.add_head_html('''
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/aboutus.css">
+        <link rel="stylesheet" href="/static/navbar.css">
+    ''')
+
+    render_navbar()
+
+    ui.add_body_html('''
+    <div class="about-container">
+            <div class="title-about">DESPRE NOI</div>
+            <div class="text-about">
+                &nbsp;&nbsp;&nbsp;&nbsp;Scopul aplicației noastre este de a ajuta utilizatorii sa-si imbunatateasca viata prin indeplinirea sarcinilor zilnice sau saptamanale. 
+                In plus, aplicatia este echipata cu o aplicatie de notite si resurse utile pentru gestionarea timpului si dezvoltarea personala. 
+                <br/>
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;Acest cod reprezinta un component React care genereaza sarcini zilnice sau saptamanale dintr-un array de provocari predefinite. 
+                Aplicatia include, de asemenea, o functie pentru gestionarea notitelor si resurselor pentru dezvoltare personala.
+                <br/>
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;Array-ul provocari 
+                contine o serie de provocari prestabilite. 
+                <br/>
+                Functia SelectTasks selecteaza un numar specificat de provocari in mod aleatoriu din array-ul provocari. 
+                Pentru fiecare sarcina afisata, exista 
+                si un buton "X" care permite utilizatorului sa elimine sarcina din lista. Componenta Tasks include, de asemenea, un stil CSS pentru a formata 
+                lista de sarcini si butoanele asociate. 
+            </div>
+    </div>
+    ''')
 
 def login_checker(user, password):
     passhash = hashlib.sha256(password.encode("utf-8")).hexdigest()

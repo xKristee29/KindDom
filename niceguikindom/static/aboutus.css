@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-container{
+    background-image: linear-gradient(to bottom, #edffd9, #ffe19c);
+    height: 100vh;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-about{
+    color: black;
+    font-size: 60px;
+
+}
+
+.text-about{
+    max-width: 700px;
+    color: #604827;
+    font-size: 20px;
+}
