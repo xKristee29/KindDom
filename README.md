@@ -11,6 +11,8 @@ Alte idei care din păcate încă nu au putut fi implementate sunt:
  - Proiectarea unui cadru de articole cu sfaturi legate de cum se pot dezvolta pe plan personal, emoțional, toți cei care folosesc aplicația
  - Existența unui jurnal personal, în care fiecare persoană poate scrie câte o idee despre cum a fost fiecare zi din viața acesteia de la începerea folosirii programului, astfel pot reuși să-și analizeze parcursul în evoluție, observând avantajele
  - Confirmarea fiecărei fapte bune printr-un videoclip public, scurt, prin intermediul platformelor Instagram(Reels), TikTok, YouTube(Shorts), astfel fiind promovată platforma generând o posibilă reclamă în rândul apropiaților persoanei, și nu numai
+ 
+Pentru cadrul competițional pot exista diferite posibilități de premiere a utilizatorilor. O modalitate ar fi colaborarea cu o asociație de voluntariat astfel putând fi oferit statutul de nou membru ambasadorilor bunatății, utilizatori ai aplicației. 
 
 ## Pornirea aplicației
 
